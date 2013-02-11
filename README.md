@@ -1,14 +1,14 @@
 Git Basics
 ============
 
-### Prerequisites
+## Prerequisites
 
 * git
 * cygwin or other terminal
 * an ssh key
 
 
-### Getting started
+## Getting started
 
 First, make an account on [bitbucket] and send me your new account name via Facebook. I'll then add you to the bitbucket repository. You'll need to add your ssh key to your bitbucket account under Account Settings. You should now be able to view the [UnityGame] respository. You should see a link for it when you're logged in to bitbucket.
 
@@ -18,7 +18,7 @@ To download the project, open up cygwin, navigate to an appropriate directory, a
 
 NOTE: this will create a new directory called `unitygame` in your current working directory. The project will be downloaded from bitbucket into this directory.
 
-### Basic Commands
+## Basic Commands
 
 There are 5 main commands you'll use with git.
 
@@ -33,7 +33,7 @@ There are 5 main commands you'll use with git.
 `git status` - get info on the current status of your local repository (which files have been modified, commited, etc)
 
 
-### Using Git
+## Using Git
 
 When you `git clone` a project, git downloads the most up-to-date version of the project. Any time you're going to start making changes, you should `git pull` to download recent updates made by other people. This ensures that you're working with the latest version of every file.
 
@@ -48,7 +48,7 @@ When you're going to make a change, it's usually best to follow these 5 steps:
 5. `git push` - upload your commit to the shared repository.
 
 
-### Other Useful Commands
+## Other Useful Commands
 
 * `git stash` - Sometimes when you try to `git pull`, git will say that you've made changes even when you haven't (this can happen when you open Unity, which automatically makes a few changes). Use `git stash` to 'erase' any local changes so that you can successfully `git pull`. Changes 'erased' with `git stash` can be recovered later, if necessary.
 
